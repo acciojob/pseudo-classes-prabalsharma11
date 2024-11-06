@@ -5,19 +5,20 @@
 body {
     background-color: var(--background-color);
 }
-.first-child{
+article p:first-child {
     color: white;
     background-color: black;
 }
 
-.nth-child(2){
-    color: inherit; 
+article p:nth-child(2) {
+    color: inherit; /* Default text color */
 }
-.last-child{
+
+p:last-child {
     color: red;
 }
 
-
+/* Unordered list styles */
 ul li {
     background-color: gray;
     width: 50%;
